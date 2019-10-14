@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bnode
+# key: bnode
+# --
+\node [block] ($2) {$3};

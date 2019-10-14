@@ -1,0 +1,60 @@
+# -*- mode: snippet -*-
+# name: arch
+# key: arch
+# --
+\documentclass[tikz,border=3.14mm]{standalone}
+\usetikzlibrary{
+  fit,
+  positioning,
+  backgrounds
+}
+\begin{document}
+\tikzset{
+  block/.style= {
+    color = black!90,
+    draw,
+    rounded corners,
+    line width = 0.5pt,
+    inner xsep = 10pt,
+    inner ysep = 10pt,
+    font=\small\sffamily,
+    align=center,
+    text = black!80
+  }
+}
+\tikzset{
+  label/.style= {
+    font=\small\sffamily,
+    align=center,
+    text width=40pt,
+    text = black!80
+  }
+}
+\tikzset{
+  highlight/.style= {
+    fill=yellow
+  }
+}
+\tikzset{
+  fits/.style= {
+    block,
+    very thin,
+    dotted,
+    color=white,
+    fill=black!8
+  }
+}
+\begin{tikzpicture}
+  [node distance=80pt,
+  on grid,
+  >=stealth,
+  auto]
+
+  % nodes
+
+  % arrows
+
+  % fits
+
+\end{tikzpicture}
+\end{document}

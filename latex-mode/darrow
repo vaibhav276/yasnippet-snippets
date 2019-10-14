@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: darrow
+# key: darrow
+# --
+\draw [<->] ($1) to node[label] {$3} ($2);

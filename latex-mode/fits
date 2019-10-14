@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: fits
+# key: fits
+# --
+\begin{scope}[on background layer]
+% \node [fits,fit=()] {};
+\end{scope}

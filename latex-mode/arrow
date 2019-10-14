@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arrow
+# key: arrow
+# --
+\draw [->] ($1) to node[label] {$3} ($2);

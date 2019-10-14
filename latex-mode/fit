@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fit
+# key: fit
+# --
+\node [fits,fit=($1)] {};
