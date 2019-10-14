@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: article
+# key: article
+# --
+\documentclass{article}
+% \usepackage{blindtext}
+\title{Title}
+\date{\today}
+\author{}
+\begin{document}
+\maketitle
+\section{Introduction}
+% \blindtext
+\end{document}
